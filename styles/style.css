@@ -9,8 +9,30 @@ body {
   color: #0d6efd;
 }
 
-@media screen and (min-width: 1px) and (max-width: 991px) {
+/* @media screen and (min-width: 1px) and (max-width: 991px) {
   .companies {
     display: none;
+  }
+} */
+@media only screen and (min-width: 321px) and (max-width: 767px) {
+  .companies {
+    display: none;
+  }
+
+  .card img {
+    width: 100%;
+  }
+  .align-items-end {
+    align-items: center !important;
+  }
+  .modal_btn {
+    padding-top: 0px !important;
+  }
+  .inner_modal h3,
+  p {
+    text-align: center !important;
+  }
+  .view_all button {
+    margin-top: 20px;
   }
 }
