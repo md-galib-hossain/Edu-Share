@@ -14,6 +14,24 @@ body {
     display: none;
   }
 } */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .align-items-end {
+    align-items: center !important;
+  }
+  .modal_btn {
+    padding-top: 0px !important;
+  }
+  .inner_modal h3,
+  p {
+    text-align: center !important;
+  }
+  .card-title {
+    text-align: start !important;
+  }
+  .card-text {
+    text-align: start !important;
+  }
+}
 @media only screen and (min-width: 321px) and (max-width: 767px) {
   .companies {
     display: none;
@@ -34,5 +52,22 @@ body {
   }
   .view_all button {
     margin-top: 20px;
+  }
+  .card-title {
+    text-align: center !important;
+  }
+  .feedback {
+    text-align: start !important;
+  }
+  .explore_item h3,
+  p {
+    text-align: start !important;
+  }
+  .carousel_control {
+    display: none;
+  }
+  .carousel-caption {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
